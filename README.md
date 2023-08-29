@@ -17,25 +17,9 @@ This Koa.js boilerplate provides a structured foundation for your project. It se
 
 The project structure is designed to enhance organization and maintainability.
 
-project-root/
-├── src/
-│ ├── core/
-│ │ ├── middleware/
-│ │ ├── util/
-│ │ ├── db/
-│ │ └── ... (other core modules)
-│ ├── httpApi/
-│ │ ├── models/
-│ │ ├── routes/
-│ │ ├── controllers/
-│ │ └── ... (other HTTP API modules)
-│ └── app.js
-└── package.json
-
-
 - The `core` directory contains essential components like middleware, utilities, and database configurations.
 - The `httpApi` directory contains modules for defining models, routes, and controllers for your HTTP API.
-- `index.js` is the entry point of your application.
+- `app.js` is the entry point of your application.
 
 ## Features
 
