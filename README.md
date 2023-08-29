@@ -39,21 +39,33 @@ Request body validation is achieved using the "joi" library, helping you validat
 
 The boilerplate includes a connection to MongoDB, allowing you to easily interact with a MongoDB database.
 
-## Getting Started
-
-1. Clone this repository to your local machine.
-2. Install the required dependencies using `npm install`.
-3. Modify the configuration in `config.js` to match your environment settings.
-4. Create your core functionalities within the `core` directory and your HTTP API modules within the `httpApi` directory.
-5. Start your application using `npm start`.
-
-## Configuration
-
-Modify the configuration in `config.js` to set up your environment-specific settings such as database connection details, API keys, and other configuration parameters.
 
 ## Usage
 
 Build your application by adding your core logic to the `core` directory and implementing your HTTP API modules in the `httpApi` directory. Leverage the provided features to streamline your development process.
+
+## Getting Started
+
+1. Clone this repository to your local machine.
+2. Install the required dependencies using `npm install`.
+4. Create your core functionalities within the `core` directory and your HTTP API modules within the `httpApi` directory.
+5. Start your application using `npm start`.
+
+## Installation
+
+```bash
+$ npm install
+```
+
+## Running the app
+
+```bash
+# development
+$ npm run dev
+
+# production mode
+$ npm run start
+```
 
 ## Contributing
 
